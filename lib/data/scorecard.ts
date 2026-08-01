@@ -1,4 +1,4 @@
-import { GENERATION_INVENTORY, SCORE_BANDS } from "./workbook"
+import { GENERATION_INVENTORY, SCORE_BANDS } from "./source"
 import { BENCHMARKS, EPR_TARGET_SHARE } from "./reference"
 import { CATEGORY_KEYS, DATA } from "./dataset"
 

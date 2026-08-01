@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 
-import { SCORE_BANDS } from "@/lib/data/workbook"
+import { SCORE_BANDS } from "@/lib/data/source"
 import { num } from "@/lib/format"
 import { cn } from "@/lib/utils"
 
@@ -83,3 +83,4 @@ export function ScoreDial({ total, band }: { total: number; band: string }) {
     </div>
   )
 }
+

@@ -13,7 +13,7 @@ import type {
   HotspotRow,
   MonitoringRow,
   RecyclerRow,
-} from "@/lib/data/workbook"
+} from "@/lib/data/source"
 import { num, pct, shortDate } from "@/lib/format"
 
 const REGISTERS = [
@@ -348,3 +348,4 @@ export function Domains() {
     </div>
   )
 }
+

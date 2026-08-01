@@ -3,6 +3,7 @@ import { Comfortaa, Geist_Mono } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/providers/theme-provider"
 import { TooltipProvider } from "@/components/ui/tooltip"
+import { Backdrop } from "@/components/layout/backdrop"
 
 const comfortaa = Comfortaa({
   variable: "--font-comfortaa",
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     >
       <body className="min-h-dvh antialiased">
         <ThemeProvider>
+          <Backdrop />
           <TooltipProvider delay={150}>{children}</TooltipProvider>
         </ThemeProvider>
       </body>

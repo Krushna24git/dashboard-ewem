@@ -11,7 +11,7 @@ import {
   type HotspotRow,
   type MonitoringRow,
   type RecyclerRow,
-} from "./workbook"
+} from "./source"
 import {
   BENCHMARKS,
   CHANNEL_SPLIT,
